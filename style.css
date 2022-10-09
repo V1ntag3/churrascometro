@@ -1,0 +1,96 @@
+@font-face {
+    font-family: bethany;
+    src: url(font/Bethany\ Script.ttf);
+}
+
+* {
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #dbcc0a;
+}
+
+
+
+h1 {
+    font-family: bethany;
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+}
+
+#container {
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #F4e30d;
+    max-width: 350px;
+    box-shadow: 5px 5px 5px rgb(133, 133, 133);
+}
+
+input {
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 20px;
+    display: block;
+    box-sizing: border-box;
+    /* borda vai ser de 100% do elemento pai*/
+}
+
+input:focus {
+    border: none;
+}
+
+input[type="button"]:hover {
+    background-color: #323232;
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+input[type="button"] {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: white;
+    color: #323232;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+#resultado {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    color: white;
+}
+
+#container-mygit {
+    max-width: 100%;
+   text-align: center
+}
+
+#mygit:hover {
+
+    background-color: #323232;
+    color: white;
+    cursor: pointer;
+}
+
+#mygit {
+    transition: 0.5s;
+    color: #323232;
+    margin-bottom: 5px;
+    background-color: white;
+    padding: 10px;
+}
